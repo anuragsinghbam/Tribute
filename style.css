@@ -29,6 +29,11 @@ li {
 
 .tribute a {
     font-size: 2vw;
+    font-weight: 700;
+}
+
+nav a {
+    font-size: 1.3vw;
 }
 
 a {
@@ -47,14 +52,22 @@ section {
     height: 50vw;
 }
 
+.bottom-section {
+    padding-top: 2vw;
+}
+
 .hero-img {
-    width: 100vw;
+    width: 110vw;
 }
 
 #image {
     width: 100%;
     box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+}
+
+#title {
+    margin-right: 3vw;
 }
 
 #title h1 {
@@ -136,6 +149,57 @@ footer{
     margin: auto;
     display: flex;
     flex-direction: column;
-    height: 10vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 
+footer h1 {
+    font-size: 2.5vw;
+}
+
+footer a {
+    font-size: 1.1vw;
+}
+
+footer ul {
+    margin: 0;
+    height: fit-content;
+}
+
+@media (max-width: 720px) {
+section, nav, footer {
+    width: 90%;
+}
+
+
+.tribute a {
+    font-size: 3.2vw;
+}
+nav a {
+    font-size: 2.2vw;
+}
+
+#title h1 {
+    font-size: 4vw;
+}
+
+#title p {
+    font-size: 1.8vw;
+}
+
+.bio h1, footer h1, #tribute-info h1 {
+    font-size: 3.5vw;
+}
+
+.bio p, footer a, #tribute-info h3 {
+    font-size: 1.6vw;
+}
+
+#image,  .contribution-img img{
+    width: 110%;
+}
+
+footer {
+    margin: 4vw auto;
+}
+}
